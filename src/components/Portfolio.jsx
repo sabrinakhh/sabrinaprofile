@@ -7,17 +7,17 @@ const Portfolio = () => {
   const [selectedProject, setSelectedProject] = useState(null);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const categories = ["All", "Web", "Mobile", "Cloud"];
+  const categories = ["All", "Web", "Team Work", "Additional Creative Contribution"];
 
   const projects = [
     {
       title: "Sistem Web Support di Perpus Sleman",
       shortDescription: "Sistem Web Support QR Code Cerdas untuk Akses Layanan Literasi Sleman",
       fullDescription: [
-        "Dinas Perpustakaan dan Kearsipan Kabupaten Sleman menghadirkan Sistem Web Support Perpustakaan Sleman, yaitu layanan berbasis QR Code yang memudahkan masyarakat dalam mengakses berbagai link website resmi milik Perpustakaan dan Arsip Sleman. Setelah warga memindai barcode yang tersedia di plakat, mereka akan diarahkan ke satu halaman web yang berisi kumpulan tautan seperti e-library, katalog digital, dan berbagai layanan literasi lainnya.",
-        "Plakat dengan QR Code ini sudah dipasang di berbagai titik strategis di wilayah Sleman, seperti kantor kelurahan, sekolah, ruang publik, dan fasilitas umum lainnya. Contoh Plakat dapat dilihat pada gambar.",
+        "Dinas Perpustakaan dan Kearsipan Kabupaten Sleman menghadirkan Sistem Web Support Perpustakaan Sleman, yaitu layanan berbasis QR Code yang memudahkan masyarakat dalam mengakses berbagai link website resmi milik Perpustakaan dan Arsip Sleman.",
+        "Plakat dengan QR Code ini sudah dipasang di berbagai titik strategis di wilayah Sleman, seperti kantor kelurahan, sekolah, dan fasilitas umum lainnya. If QR di scann maka akan direct ke halaman web yang saya buat"
       ],
-      images: ["./assets/7.png", "./assets/8.jpeg", "./assets/2.png", "./assets/3.png", "./assets/4.png","./assets/5.png","./assets/6.png"],
+      images: ["./assets/dinas.png", "./assets/8.jpeg", "./assets/2.png", "./assets/3.png", "./assets/4.png","./assets/5.png","./assets/6.png"],
       category: "Web",
       technologies: ["HTML", "CSS", "JavaScript"],
       metrics: [
@@ -26,27 +26,25 @@ const Portfolio = () => {
       ],
     },
     {
-      title: "Website Landing Page PesanKami",
+     title: "Website Landing Page PesanKami",
       shortDescription: "Sistem Webiste Landing page untuk jasa layanan digital yang profesional",
       fullDescription: [
-        "PesanKami adalah sebuah landing page modern yang saya kembangkan pada tahun 2024 untuk mempromosikan layanan digital Website ini dirancang dengan tampilan profesional guna menarik perhatian calon klien serta memudahkan mereka memahami layanan yang ditawarkan",
+        "PesanKami adalah sebuah landing page modern yang my team kembangkan pada tahun 2024 untuk mempromosikan layanan digital Website ini dirancang dengan tampilan profesional guna menarik perhatian calon klien serta memudahkan mereka memahami layanan yang ditawarkan",
         "Proyek ini juga menjadi portofolio saya dalam menunjukkan kemampuan teknis di bidang web development, mulai dari desain antarmuka hingga deployment menggunakan GitHub Pages.",
       ],
-        images: ["./assets/1a.png", "./assets/1b.png", "./assets/1c.png", "./assets/1e.png", "./assets/1d.png","./assets/1e.png","./assets/1f.png","./assets/1g.png"],
-        category: "Web",
+      images: ["./assets/pesankami.png", "./assets/1b.png", "./assets/1c.png", "./assets/1e.png", "./assets/1d.png","./assets/1e.png","./assets/1f.png","./assets/1g.png"],
+      category: "Web",
       technologies: ["HTML", "CSS", "JavaScript", "PHP"],
       metrics: [
         { label: "Visits", value: "2K+" },
         { label: "Feedback", value: "Positive" },
       ],
-      
     },
     {
       title: "Website Portfolio Pribadi",
       shortDescription: "Proyek dan keahlian digital saya, secara kreatif dan inovatif.",
-      fullDescription:
-        "Website profesional untuk menampilkan pengalaman, keahlian, dan proyek-proyek digital saya sebagai pengembang web.",
-        images: ["./assets/2a.png", "./assets/2b.png", "./assets/1c.png", "./assets/1e.png", "./assets/1d.png","./assets/1e.png","./assets/1f.png","./assets/1g.png"],
+      fullDescription: "Website profesional untuk menampilkan pengalaman, keahlian, dan proyek-proyek digital saya sebagai pengembang web.",
+      images: ["./assets/myprof.png"],
       category: "Web",
       technologies: ["React", "TailwindCSS", "HTML", "Js"],
       metrics: [
@@ -54,41 +52,62 @@ const Portfolio = () => {
         { label: "Deploy", value: "GitHub Pages" },
       ],
     },
-    {
-      title: " Sistem Absensi Murid di SMKN 13 Kota Bekasi",
-      shortDescription: "Sistem telah selesai dibuat, Terdapat masalah uplaod ke github",
-      fullDescription:
-        "Sistem telah selesai dikembangkan, namun proses upload ke GitHub sedikit tertunda karena file-nya sempat tidak ditemukan. ",
-      images: ["./assets/so.png"],
-      category: "Mobile",
-      technologies: ["React Native", "Firebase", "Framework Laravel"],
+      {
+      title: "Project Kuliah APP Driver Ambulance",
+      shortDescription: "Proyek dan keahlian digital bersama dengan team, secara kreatif dan inovatif.",
+      fullDescription: "Sebuah aplikasi digital yang dikembangkan untuk mendukung operasional pengemudi ambulans dalam menangani layanan darurat secara cepat, tepat, dan terstruktur Aplikasi telah diserahkan dan digunakan oleh pihak Lazimu sebagai bentuk kontribusi nyata terhadap pelayanan sosial dan kemanusiaan.",
+      images: ["./assets/c1 (1).png"],
+      category: "Team Work",
+      technologies: ["Android Mobile"],
       metrics: [
-        { label: "App Rating", value: "4.9" },
-        { label: "Daily Users", value: "50K+" },
+        { label: "Uptime", value: "100%" },
+        { label: "Deploy", value: "GitHub Pages" },
       ],
     },
     {
-      title: "Cloud Migration",
-      shortDescription: "Coming Soon",
+      title: "Video Senam Sehat Monthly",
+      shortDescription: "Memberikan kontribusi kreatif tambahan dengan peran sebagai editor dan videografer sebagai bentuk komitmen dan loyalitas terhadap perusahaan.",
       fullDescription:
-        "Migrasi infrastruktur besar-besaran ke cloud untuk meningkatkan efisiensi dan menghemat biaya hingga 60%.",
-      images: ["./assets/so.png"],
-      category: "Cloud",
-      technologies: ["AWS", "Kubernetes"],
+        "Sebagai editor video dan videografer, saya turut mendokumentasikan kegiatan bulanan seperti senam sehat di PT Duta Hita Jaya (1x setiap bulan), sebagai bagian dari kontribusi kreatif di luar tugas utama.",
+      images: ["./assets/sn1.png"], 
+      video: "./assets/ss.mp4",  // ⬅ VIDEO ditambahkan
+      category: "Additional Creative Contribution",
+      technologies: ["Capcut", "Canva", "Filmora"],
       metrics: [
         { label: "Cost Saving", value: "60%" },
         { label: "Uptime", value: "99.99%" },
       ],
     },
-    
+    {
+      title: "Project Freelance Sistem Dinamis Web RS By Team freelance",
+      shortDescription: "Kami Team berpengalaman dalam mengerjakan berbagai proyek digital secara kolaboratif bersama tim",
+      fullDescription: "Website profesional  RS Aisyiyah untuk menampilkan pengalaman, keahlian, dan proyek-proyek digital saya sebagai pengembang web freelance. Website ini dibuat sebagai media portofolio pribadi sekaligus ruang kolaborasi, karena dalam banyak proyek saya bekerja bersama tim ",
+      images: ["./assets/c1 (2).png","./assets/c1 (3).png","./assets/c1 (4).png","./assets/c1 (5).png","./assets/c1 (6).png","./assets/c1 (7).png","./assets/c1 (8).png","./assets/c1 (9).png","./assets/c1 (10).png"],
+      category: "Team Work",
+      technologies: ["Fullstack by Team"],
+      metrics: [
+        { label: "Uptime", value: "100%" },
+        { label: "Deploy", value: "GitHub Pages" },
+      ],
+    },
+        {
+      title: "Hasil Karya Bersama dengan Team Freelance",
+      shortDescription: "Kami Team berpengalaman dalam mengerjakan berbagai proyek digital secara kolaboratif bersama tim",
+      fullDescription: "https://drive.google.com/file/d/1no3d_wjH7J81ym5d6wMcTm2iaPweyZWD/view?usp=sharing",
+      images: ["./assets/dd.png"],
+      category: "Team Work",
+      technologies: ["Fullstack by Team"],
+      metrics: [
+        { label: "Uptime", value: "100%" },
+        { label: "Deploy", value: "GitHub Pages" },
+      ],
+    },
   ];
 
   useEffect(() => {
-    if (!selectedProject || !selectedProject.images?.length) return;
+    if (!selectedProject || !selectedProject.images?.length || selectedProject.video) return;
     const interval = setInterval(() => {
-      setCurrentImageIndex(
-        (prevIndex) => (prevIndex + 1) % selectedProject.images.length
-      );
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % selectedProject.images.length);
     }, 1000);
     return () => clearInterval(interval);
   }, [selectedProject]);
@@ -139,10 +158,7 @@ const Portfolio = () => {
 
         <div className="mt-16 grid grid-cols-1 gap-12 lg:grid-cols-3">
           {projects
-            .filter(
-              (project) =>
-                activeFilter === "All" || project.category === activeFilter
-            )
+            .filter((project) => activeFilter === "All" || project.category === activeFilter)
             .map((project) => (
               <div
                 key={project.title}
@@ -159,12 +175,8 @@ const Portfolio = () => {
                       <div className="flex items-center gap-4">
                         {project.metrics.map((metric, idx) => (
                           <div key={idx} className="text-white">
-                            <div className="text-sm opacity-75">
-                              {metric.label}
-                            </div>
-                            <div className="text-lg font-bold">
-                              {metric.value}
-                            </div>
+                            <div className="text-sm opacity-75">{metric.label}</div>
+                            <div className="text-lg font-bold">{metric.value}</div>
                           </div>
                         ))}
                       </div>
@@ -177,18 +189,11 @@ const Portfolio = () => {
                       {project.category}
                     </span>
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">
-                    {project.title}
-                  </h3>
-                  <p className="text-gray-600 mb-6">
-                    {project.shortDescription}
-                  </p>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">{project.title}</h3>
+                  <p className="text-gray-600 mb-6">{project.shortDescription}</p>
                   <div className="flex flex-wrap gap-2 mb-6">
                     {project.technologies.map((tech, idx) => (
-                      <span
-                        key={idx}
-                        className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-gray-50 text-sm text-gray-600"
-                      >
+                      <span key={idx} className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-gray-50 text-sm text-gray-600">
                         <Code size={14} />
                         {tech}
                       </span>
@@ -213,61 +218,70 @@ const Portfolio = () => {
       {selectedProject && (
         <div className="fixed inset-0 z-50 bg-black bg-opacity-50 flex items-center justify-center px-4">
           <div className="bg-white rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto shadow-2xl animate-fadeIn relative">
+
+            {/* 🔥 BAGIAN GAMBAR / VIDEO */}
             <div className="relative bg-white">
-              <img
-                src={selectedProject.images[currentImageIndex]}
-                alt={selectedProject.title}
-                className="w-full h-64 object-contain transition-all duration-700"
-              />
+              {selectedProject.video ? (
+                <video
+                  src={selectedProject.video}
+                  controls
+                  autoPlay
+                  loop
+                  className="w-full h-64 object-contain"
+                />
+              ) : (
+                <img
+                  src={selectedProject.images[currentImageIndex]}
+                  alt={selectedProject.title}
+                  className="w-full h-64 object-contain transition-all duration-700"
+                />
+              )}
+
               <button
                 onClick={() => setSelectedProject(null)}
                 className="absolute top-4 right-4 text-white bg-black bg-opacity-40 hover:bg-opacity-60 rounded-full p-2"
               >
                 ✕
               </button>
-              <button
-                onClick={() =>
-                  setCurrentImageIndex((prevIndex) =>
-                    prevIndex === 0
-                      ? selectedProject.images.length - 1
-                      : prevIndex - 1
-                  )
-                }
-                className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-black bg-opacity-40 hover:bg-opacity-60 text-white p-2 rounded-full"
-              >
-                {"<"}
-              </button>
-              <button
-                onClick={() =>
-                  setCurrentImageIndex((prevIndex) =>
-                    (prevIndex + 1) % selectedProject.images.length
-                  )
-                }
-                className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-black bg-opacity-40 hover:bg-opacity-60 text-white p-2 rounded-full"
-              >
-                {">"}
-              </button>
+
+              {/* 🔥 Tombol navigasi hanya muncul kalau project TIDAK pakai video */}
+              {!selectedProject.video && (
+                <>
+                  <button
+                    onClick={() =>
+                      setCurrentImageIndex((prevIndex) =>
+                        prevIndex === 0 ? selectedProject.images.length - 1 : prevIndex - 1
+                      )
+                    }
+                    className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-black bg-opacity-40 hover:bg-opacity-60 text-white p-2 rounded-full"
+                  >
+                    {"<"}
+                  </button>
+                  <button
+                    onClick={() =>
+                      setCurrentImageIndex((prevIndex) =>
+                        (prevIndex + 1) % selectedProject.images.length
+                      )
+                    }
+                    className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-black bg-opacity-40 hover:bg-opacity-60 text-white p-2 rounded-full"
+                  >
+                    {">"}
+                  </button>
+                </>
+              )}
             </div>
+
             <div className="p-6">
-              <h2 className="text-2xl font-bold text-gray-900 mb-2">
-                {selectedProject.title}
-              </h2>
-              <div
-                className="text-gray-600 mb-4 space-y-4"
-                style={{ textAlign: "justify" }}
-              >
+              <h2 className="text-2xl font-bold text-gray-900 mb-2">{selectedProject.title}</h2>
+              <div className="text-gray-600 mb-4 space-y-4" style={{ textAlign: "justify" }}>
                 {Array.isArray(selectedProject.fullDescription)
-                  ? selectedProject.fullDescription.map((para, idx) => (
-                      <p key={idx}>{para}</p>
-                    ))
+                  ? selectedProject.fullDescription.map((para, idx) => <p key={idx}>{para}</p>)
                   : <p>{selectedProject.fullDescription}</p>}
               </div>
+
               <div className="flex flex-wrap gap-2">
                 {selectedProject.technologies.map((tech, idx) => (
-                  <span
-                    key={idx}
-                    className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-gray-100 text-sm text-gray-700"
-                  >
+                  <span key={idx} className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-gray-100 text-sm text-gray-700">
                     <Code size={14} />
                     {tech}
                   </span>
