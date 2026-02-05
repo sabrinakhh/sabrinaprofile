@@ -18,7 +18,7 @@ const Services = () => {
       icon: Monitor,
       gradient: "from-violet-600 to-indigo-600",
       features: [
-        "PT Duta Hita Jaya Admin Produksi Progress dari November 2024 - Sekarang",
+        "PT Duta Hita Jaya Administration Proggress Staff dari November 2024 - Sekarang",
         "CV Trubus Jaya Abadi Admin Operasional dari Maret 2023 – Desember 2023",
         "Online Shop Craft Jogja Admin Marketpalace dari Maret 2024 - Juni 2024",
       ],
@@ -38,9 +38,9 @@ const Services = () => {
       icon: Cloud,
       gradient: "from-blue-600 to-sky-600",
       features: [
-        "PT Ebiz Prima Nusa X KarirNex Pelatihan Sertifikasi Microsoft office Excel Speciallist Desember 2023",
-        "PT Inixindo Persada Rekayasa Komputer Sertifikasi Profesi Pengelolaan Layanan TI Februari 2022",
-        "SMKN 13 Bekasi Sertifikasi Kompetensi Teknik Komputer Jaringan Mei 2019",
+        "PT Ebiz Prima Nusa Pelatihan Sertifikasi Microsoft office Excel Speciallist Desember 2023",
+        "PT Inixindo Persada Rekayasa Sertifikasi Profesi Pengelolaan Layanan TI Februari 2022",
+        "SMKN 13 Bekasi Sertifikasi Kompetensi TKJ Mei 2019",
       ],
     },
     {
@@ -49,7 +49,7 @@ const Services = () => {
       gradient: "from-sky-600 to-cyan-600",
       features: [
         "Sistem Pendukung Keputusan Pemilihan Makanan Balita Android https://shorturl.at/MenPf",
-        "Team Sosialisasi Pengabdian Masyarakat Pencegahan Stunting Pada Balita Di Wilayah Kerja Puskesmas Dlingo2 https://shorturl.at/VGo83",
+        "Sosialisasi Pengabdian Masyarakat Pencegahan Stunting Balita Di Puskesmas Dlingo2 https://shorturl.at/VGo83",
         "Aplikasi Skrining Kanker Payudara Karya Tim PKM Unisa Yogyakarta https://shorturl.at/PB4oG",
       ],
     },
