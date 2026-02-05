@@ -25,13 +25,13 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Me",
-      details: ["Sabrina Khusnul Khotimah", "Saat ini masih bekerja di PT Duta Hita Jaya sebagai Helpher"],
+      details: ["Sabrina Khusnul Khotimah", "Saat ini masih bekerja di PT Duta Hita Jaya sebagai Administration Proggres Staff"],
       ariaLabel: "Office Location",
     },
     {
       icon: Phone,
       title: "Contact Details",
-      details: ["Phone : 08886342115","Email: sabrinakhusnulkh@gmail.com"],
+      details: ["Phone : +6285183009623","Email: sabrinakhusnulkh@gmail.com"],
       ariaLabel: "Kontak ",
     },
     {
@@ -146,7 +146,7 @@ const Contact = () => {
                     value={formData.firstName}
                     onChange={handleInputChange}
                     className="w-full px-4 py-2.5 rounded-xl border border-slate-200 focus:ring-2 focus:ring-violet-600 focus:border-transparent transition-all duration-200"
-                    placeholder="John"
+                    placeholder="Sabrina"
                   />
                 </div>
                 <div>
@@ -164,7 +164,7 @@ const Contact = () => {
                     value={formData.lastName}
                     onChange={handleInputChange}
                     className="w-full px-4 py-2.5 rounded-xl border border-slate-200 focus:ring-2 focus:ring-violet-600 focus:border-transparent transition-all duration-200"
-                    placeholder="Doe"
+                    placeholder="Kh"
                   />
                 </div>
               </div>
@@ -184,7 +184,7 @@ const Contact = () => {
                   value={formData.email}
                   onChange={handleInputChange}
                   className="w-full px-4 py-2.5 rounded-xl border border-slate-200 focus:ring-2 focus:ring-violet-600 focus:border-transparent transition-all duration-200"
-                  placeholder="john@example.com"
+                  placeholder="sabrinakh@example.com"
                 />
               </div>
 
